@@ -1,5 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+
+import Login from './login';
+
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -13,8 +16,10 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://github.com/joshparkerj/github-repo-wrangler/">GITHUB REPO WRANGLER</a>
         </h1>
+
+        <Login />
 
         <p className={styles.description}>
           Get started by editing{' '}
